@@ -1,0 +1,57 @@
+.gener_wrapper_inside{
+
+  display: flex;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+.single_movie{
+    margin: 10px;
+    border-radius: 0.6px;
+}
+.gener_wrapper_outside{
+    height: 380px;
+    color: white;
+    margin-bottom: 20px;
+  
+}
+.gener_wrapper_outside>h2{
+   padding: 30px 0px 0px 40px;
+}
+.single_movie:hover{
+  /* border: 3px solid white; */
+  transform: scale(1.2); /* Grows 10% larger */
+  box-shadow: 0 8px 20px rgba(240, 236, 236, 0.4); /* Adds a shadow for effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease
+}
+.Whole_Wrapper{
+  background-color: rgb(0,0,0);
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
+.banner{
+  display: none;
+  margin-bottom: -150px;
+}
+.carousel{
+  margin-bottom: 10px;
+}
+
+.carousel h1{
+  position: absolute;
+  color: rgb(0, 0, 0);
+}
+
+@media (min-width: 1790px) {
+
+  .banner{
+    display: block;
+  }
+  .carousel{
+    display: none;
+  }
+}
+

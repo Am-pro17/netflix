@@ -1,0 +1,18 @@
+.footer{
+   background-color: #212529; 
+   color: rgb(152, 158, 158);
+   padding: 35px;
+}
+.list_of_link{
+    margin: 0 auto;
+        margin-bottom: 5px;
+        margin-top: 5px;
+
+}
+.list_of_link>div{
+margin-bottom: 10px;
+}
+
+.just div:last-child{
+    font-size: 13px;
+}

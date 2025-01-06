@@ -1,0 +1,14 @@
+.header_logo{
+    width: 85px;
+}
+
+.right_side_nav {
+    display: none;
+  }
+  
+  @media (min-width: 992px) {
+    .right_side_nav {
+      display: inline-flex;
+   
+    }
+  }
